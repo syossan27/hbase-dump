@@ -1,0 +1,10 @@
+package: hbase-dump
+import:
+- package: github.com/mattn/go-colorable
+- package: github.com/urfave/cli
+- package: github.com/tsuna/gohbase
+- package: github.com/Sirupsen/logrus
+  version: master
+  repo: https://github.com/sirupsen/logrus.git
+  vcs: git
+- package: github.com/ChimeraCoder/gojson

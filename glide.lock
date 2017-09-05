@@ -1,0 +1,42 @@
+hash: 4724df611d6a90a3436c1e5b67e4aa63ae850cbcf568a96f3b7f53913a317f8e
+updated: 2017-08-31T13:13:42.432166563+09:00
+imports:
+- name: github.com/ChimeraCoder/gojson
+  version: ded015c09b4dee6ede3d37ace46fbe09ae7b219d
+- name: github.com/cznic/b
+  version: 6955404bf550e1eae1bf83121739078b027f4547
+- name: github.com/golang/protobuf
+  version: 1fb8fd32a09087bcd727225167edd31e1b9ceb24
+  subpackages:
+  - proto
+- name: github.com/mattn/go-colorable
+  version: ded68f7a9561c023e790de24279db7ebf473ea80
+- name: github.com/mattn/go-isatty
+  version: fc9e8d8ef48496124e79ae0df75490096eccf6fe
+- name: github.com/samuel/go-zookeeper
+  version: 1d7be4effb13d2d908342d349d71a284a7542693
+  subpackages:
+  - zk
+- name: github.com/Sirupsen/logrus
+  version: 89742aefa4b206dcf400792f3bd35b542998eb3b
+  repo: https://github.com/sirupsen/logrus.git
+  vcs: git
+- name: github.com/tsuna/gohbase
+  version: 4c3a4f4e8aea6a327476875b7af7b431316d935a
+  subpackages:
+  - filter
+  - hrpc
+  - pb
+  - region
+  - zk
+- name: github.com/urfave/cli
+  version: f017f86fccc5a039a98f23311f34fdf78b014f78
+- name: golang.org/x/crypto
+  version: 51714a8c4ac1764f07ab4127d7f739351ced4759
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 94b76065f2d2081d0fef24a6e67c571f51a6408a
+  subpackages:
+  - unix
+testImports: []
